@@ -1,0 +1,933 @@
+.header{
+    background-color:white;
+    width: 100%;
+    height: 70px;
+}
+body{
+    margin: 0%;
+}
+.logo{
+    width: 50%;
+    float: left;
+    font-size: 10px;
+}
+.logo-text{
+    padding-left: 250px;
+    width: 300px;
+    height: 70px;
+    
+}
+.head-components{
+    width: 50%;
+    float: left;
+}
+.discover{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+   float: left;
+}
+.A{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.5;
+    width: 24px;
+    font-size: 20px;
+    line-height: 5px;
+    
+}
+.A:hover{
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.user-acess{ 
+    padding-left: 100px;
+    padding-top: 5px;
+    float: left;
+    width: 300px;
+    float: left;
+    
+}
+.join-now button{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    float: left;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-style: none;
+    background-color: white;
+   
+    
+}
+.join-now:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+
+}
+.sign-in button{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    float: left;
+    margin-left: 50px;
+    color: rgb(59, 59, 199);
+    border-color: rgb(59, 59, 199);
+    font-size: 20px;
+    border-radius: 50px;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    background-color: white;
+}
+.sign-in:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.subhead{
+    width: 100%;
+    height: 15px;
+    background-color: white;
+}
+.data{
+    width: 50%;
+    float: left;
+    height: 750px;
+    background-color:white;
+    
+}
+.picture{
+    width: 50%;
+    float: left;
+    height: 750px;
+    background-color:white;
+    
+}
+.data h2{
+    font-weight: lighter;
+    padding-left: 250px;
+    font-size: 50px;
+    opacity: 0.5;
+}
+.data form{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: lighter;
+padding-left: 250px;
+font-size: 17px;
+}
+.data input {
+    padding-left: 15rem;
+    padding-top: 2rem;
+    border-radius: 5px;
+    background-color: white;
+    
+    
+}
+.data:hover input{
+    cursor: pointer;
+    background-color:  rgb(213, 208, 214);
+}
+.data a{
+    padding-left: 250px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sign-in-main{
+    padding-left: 250px;
+    padding-top: 30px;
+}
+.sign-in-main button{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: lighter;
+padding-left: 12rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-right: 12rem;
+border-radius: 50px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+background-color: rgb(49 84 181);
+}
+.sign-in-main:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color:  rgb(43, 32, 196) ;
+}
+.sign-in-google{
+    padding-left: 250px;
+    padding-top: 30px;
+}
+.sign-in-google button{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: lighter;
+    padding-left: 9rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 9rem;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.8;
+    background-color: white;
+}
+.sign-in-google:hover button{
+opacity: 1;
+cursor: pointer;
+transition: 0.3s;
+background-color: rgb(213, 208, 214)
+}
+.newlinkedin{
+    padding-left: 250px;
+    padding-top: 30px;
+    
+}
+.newlinkedin button{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: lighter;
+    padding-left: 8rem;
+    padding-right: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.8;
+    background-color: white;
+
+}
+.newlinkedin:hover button{
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color:  rgb(213, 208, 214);
+}
+.homepic{
+    padding-top: 100px;
+    width: 700px;
+    height: 550px;
+}
+.section-a{
+    width: 50%;
+    float: left;
+    height: 400px;
+    background-color:  rgb(235, 230, 230);
+}
+.section-b{
+    width: 40%;
+    float: left;
+    height: 400px;
+    background-color: rgb(235, 230, 230);
+}
+.section-bb{
+    width: 10%;
+    float: left;
+    height: 400px;
+    background-color: rgb(235, 230, 230) ;
+}
+.section-a h2{
+    font-weight: lighter;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 400px;
+
+}
+.section-b h3{
+    padding-top: 50px;
+}
+.b1 button{
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.b1:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.b2 button{
+    margin-left: 5px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.b2:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.b3 button{
+    margin-left: 5px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.b3:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.b4 button{
+    margin-left: 5px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.b4:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.b5 button{
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.b5:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.b6 button{
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.b6:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.b7 button{
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem; 
+    background-color: white;
+}
+.b7:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.b8 button{
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.b8:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.section-c{
+    width: 50%;
+    float: left;
+    height: 400px;
+    background-color: white;
+}
+.section-d{
+    width: 40%;
+    float: left;
+    height: 400px;
+    background-color: white;
+}
+.section-dd{
+    width: 10%;
+    float: left;
+    height: 400px;
+    background-color: white;
+}
+.section-c h2{
+    font-weight: lighter;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 400px;
+}
+.section-d h3{
+    padding-top: 50px;
+}
+.d1 button{
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.d1:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.d2 button{
+    float: left;
+    margin-left: 5px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.d2:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.d3 button{
+    margin-left: 5px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.d3:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.d4 button{
+    margin-left: 5px;
+    margin-top: 10px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.d4:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.d5 button{
+    margin-left: 5px;
+    margin-top: 10px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.d5:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.d6 button{
+    margin-left: 5px;
+    margin-top: 10px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.d6:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.d7 button{
+    margin-left: 5px;
+    margin-top: 10px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.d7:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.d8 button{
+    margin-left: 5px;
+    margin-top: 10px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.d8:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.d9 button{
+    margin-left: 5px;
+    margin-top: 10px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.d9:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.d10 button{
+    margin-left: 5px;
+    margin-top: 10px;
+    float: left;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.d10:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.section-e{
+    width: 50%;
+    float: left;
+    height: 300px;
+    background-color:  rgb(235, 230, 230);
+}
+.section-f{
+    width: 50%;
+    float: left;
+    height: 300px;
+    background-color:  rgb(235, 230, 230);
+}
+
+.section-e h2{
+    font-weight: lighter;
+    color: rgb(173, 40, 40);
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 400px;
+}
+.e1 button{
+    float: left;
+    margin-top: 125px;
+    color:  rgb(49 84 181);
+    border-color: rgb(49 84 181) ;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem; 
+}
+.e1:hover button{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.section-g{
+    width: 50%;
+    float: left;
+    height: 800px;
+    background-color:white;
+}
+.section-h{
+    width: 50%;
+    float: left;
+    height: 800px;
+    background-color:white;
+}
+.g-img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding-left: 400px;
+    padding-top: 100px;
+}
+.section-g h2{
+    font-weight: lighter;
+    font-size: 50px;
+    padding-top: 400px;
+    padding-left: 400px;
+}
+.g1{
+    float: left;
+    margin-left: 400px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.g1:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(213, 208, 214);
+}
+.h-img{
+    float: left;
+    width: 350px;
+    height: 350px;
+    padding-left: 100px;
+    padding-top: 50px;  
+}
+.section-h h2{
+    font-weight: lighter;
+    font-size: 50px;
+    padding-top: 400px;
+    padding-left: 100px;
+}
+.custom-select select{
+    font-family: 'Maven Pro', sans-serif;
+    margin-left: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 300px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;   
+    border-width: 1px;
+    background-color: white;
+}
+.custom-select:hover select{
+    cursor: pointer;
+    transition: 0.03s;
+    background-color: rgb(213, 208, 214);
+}
+.section-i{
+    float: left;
+    width: 100%;
+    height: 780px;
+    background-color:white;
+}
+.i-img{
+    margin-top: 100px;
+}
+.section-i h1{
+    font-size: 50px;
+    font-weight: lighter;
+    opacity:0.7;
+    margin-left: 300px;
+}
+.i1{
+    float: left;
+    margin-left: 300px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem; 
+    background-color: rgb(49 84 181) ;
+}
+.i1:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(43, 32, 196); 
+}
+.section-j{
+    float: left;
+    width: 30%;
+    height: 500px;
+    background-color: rgb(235, 230, 230);
+}
+.section-k{
+    float: left;
+    width: 13%;
+    height: 500px;
+    background-color: rgb(235, 230, 230);
+}
+.j-img{
+    width: 100px;
+    height: 20px;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+.section-l{
+    float: left;
+    width: 13%;
+    height: 500px;
+    background-color: rgb(235, 230, 230);
+}
+.btmhead{
+    font-family: 'Maven Pro', sans-serif;
+    margin-top: 30px;
+}
+.btmsub a{
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration:none;
+    color: black;
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.btmsub11:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub12:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub13:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub14:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub15:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub16:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub17:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub21:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub22:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub23:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub24:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub25:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub26:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.section-m{
+    float: left;
+    width: 13%;
+    height: 500px;
+    background-color: rgb(235, 230, 230);
+}
+.btmsub31:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub32:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub33:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub34:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.section-n{
+    float: left;
+    width: 13%;
+    height: 500px;
+    background-color: rgb(235, 230, 230);
+}
+.btmsub41:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub42:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub43:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub44:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub45:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub46:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub47:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub48:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub49:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub410:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub411:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub412:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub413:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.btmsub414:hover{
+    text-decoration: underline;
+    color:  rgb(49 84 181);
+}
+.section-o{
+    float: left;
+    width: 18%;
+    height: 500px;
+    background-color: rgb(235, 230, 230);
+}
+
